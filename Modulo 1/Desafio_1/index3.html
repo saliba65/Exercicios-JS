@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Habilidades</title>
+  </head>
+  <body>
+    <script>
+      var skills = ["Javascript", "ReactJS", "React Native"];
+
+      function haveSkill(skills) {
+        var resultado = false;
+        for (var i = 0; i < skills.length; i++) {
+          if (skills[i] === "Javascript") resultado = true;
+        }
+        return resultado;
+      }
+
+      var resultado = haveSkill(skills);
+
+      if (resultado == true) {
+        console.log("Have skill");
+      } else {
+        console.log("Do not have skill");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Experiente</title>
+  </head>
+  <body>
+    <script>
+      function experiencia(anosEstudo) {
+        var resultado = "";
+        if (anosEstudo < 1) {
+          resultado = "Iniciante";
+        } else if (anosEstudo >= 1 && anosEstudo < 3) {
+          resultado = "Intermediario";
+        } else if (anosEstudo >= 3 && anosEstudo <= 6) {
+          resultado = "Avancado";
+        } else if (anosEstudo >= 7) {
+          resultado = "Jedi";
+        } else {
+          resultado = "Valor invalido, tente novamente";
+        }
+        return resultado;
+      }
+
+      console.log("Lucas: " + experiencia(7));
+      console.log("Arthur: " + experiencia(0.8));
+      console.log("Diogo: " + experiencia(5));
+      console.log("Lorenzo: " + experiencia(2));
+    </script>
+  </body>
+</html>
