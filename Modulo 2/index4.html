@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Lista nomes 2</title>
+  </head>
+  <body>
+    <ul id="lista"></ul>
+    <input type="text" name="nome" />
+    <button class="botao">Adicionar</button>
+    <script>
+      var inputElement = document.querySelector("input[name=nome");
+      var btnElement = document.querySelector("button.botao");
+
+      btnElement.onclick = function () {
+        var lista = document.getElementById("lista");
+        var item = document.createElement("li");
+        //item.appendChild(inputElement.value);
+        //item = inputElement.value;
+        item.appendChild(document.createTextNode(inputElement.value));
+        lista.appendChild(item);
+      };
+      //Como limpar a barra de input ? ....
+    </script>
+  </body>
+</html>
