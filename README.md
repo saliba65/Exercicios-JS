@@ -1,2 +1,2 @@
-# Exercicios-JS
-Exercícios JavaScript 
+# Curso Web Rocketseat
+Exercícios e codigos exemplos sobre JavaScript e suas especialidades
