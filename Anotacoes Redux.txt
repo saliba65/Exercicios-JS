@@ -1,0 +1,19 @@
+Redux 
+
+Biblioteca js
+
+simplificar o controle dos estados de uma aplicacao 
+
+estados armazenados em uma arvore de objetos ---> store
+
+user interface - - action creator - - store - - novo estado para o componente
+
+todos os estados estarao disponiveis pelo store
+
+Redux == React == mesmo principio 
+
+Porem funcionam de forma independente
+
+Biblioteca React-Redux
+
+

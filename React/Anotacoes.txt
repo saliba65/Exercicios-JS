@@ -1,0 +1,7 @@
+Anotacoes React JS
+
+- Nao faz mais do que o JS puro faria, porem faz de uma forma muito mais organizada 
+
+- DOM = arvore de elementos da app HTML 
+
+- Especializado em SPAs - Single Page Aplications 
